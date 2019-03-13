@@ -1,8 +1,9 @@
-name: example-environment
-channels:
-  - conda-forge
+name: Qiskitenv
 dependencies:
-  - python
-  - numpy
-  - pip:
-    - qiskit
+- python==3.6
+- pip=18
+- matplotlib
+- notebook
+- ipywidgets
+- pip:
+  - qiskit

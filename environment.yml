@@ -2,13 +2,10 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - python
   - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - qiskit
-  - dask
-
+  - pip:
+    - nbgitpuller
+    - qiskit
+    - pandas
+    - matplotlib

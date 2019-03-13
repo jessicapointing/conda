@@ -5,7 +5,4 @@ dependencies:
   - python
   - numpy
   - pip:
-    - nbgitpuller
     - qiskit
-    - pandas
-    - matplotlib

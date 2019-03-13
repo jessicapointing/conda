@@ -9,5 +9,6 @@ dependencies:
   - dill
   - pandas
   - partd
-  - bokeh
+  - qiskit
   - dask
+
